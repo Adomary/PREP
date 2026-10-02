@@ -28,7 +28,7 @@ from collections import Counter
 import numpy as np
 import pandas as pd
 
-# Data visualisation
+# Data visualization
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from wordcloud import WordCloud
@@ -74,7 +74,7 @@ from sklearn.metrics import (
 # ===============================================================
 # 1. SETTINGS
 # ===============================================================
-DATA_PATH = "SMSSpamCollection.tsv"         # dataset file (tab-separated: label, text)
+DATA_PATH = "SMSSpamCollection2.tsv"         # dataset file (tab-separated: label, text)
 RANDOM_STATE = 42                           # fixed seed so results are reproducible
 LOGO_PATH = "spambusters_logo.png"          # Spam Busters company logo
 
